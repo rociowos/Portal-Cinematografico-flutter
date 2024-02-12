@@ -56,7 +56,7 @@ class _YearSearchPageState extends State<YearSearchPage> {
   Future<void> _searchMoviesByYear() async {
     final year = _yearController.text;
     try {
-      http.Response response = await http.get(Uri.parse('http://localhost:5003/primerapi/anio/$year'));
+      http.Response response = await http.get(Uri.parse('http://10.0.2.2:5003/primerapi/anio/$year'));
       if (response.statusCode == 200) {
         setState(() {
           final List<dynamic> parsedResponse = json.decode(response.body)['results'];

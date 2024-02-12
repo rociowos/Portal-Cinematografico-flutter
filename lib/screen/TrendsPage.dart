@@ -21,7 +21,7 @@ class _TrendsPageState extends State<TrendsPage> {
   Future<void> getTrendingMovies() async {
     try {
       http.Response response =
-          await http.get(Uri.parse('http://localhost:5003/primerapi/tendencias'));
+          await http.get(Uri.parse('http://10.0.2.2:5003/primerapi/tendencias'));
       if (response.statusCode == 200) {
         setState(() {
           final List<dynamic> parsedResponse = json.decode(response.body)['results'];

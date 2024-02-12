@@ -37,7 +37,7 @@ class _MoviePageState extends State<MoviePage> {
   Future<void> getPeliculas(int page) async {
     try {
       http.Response response =
-          await http.get(Uri.parse('http://localhost:5003/primerapi/estrenos'));
+          await http.get(Uri.parse('http://10.0.2.2t:5003/primerapi/estrenos'));
       if (response.statusCode == 200) {
         setState(() {
           final List<dynamic> parsedResponse = json.decode(response.body)['results'];
