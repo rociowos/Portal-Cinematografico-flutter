@@ -16,6 +16,9 @@ Se utilizo:
 - Pixel 6 pro api 28 (android -x86-emulator) via url http://10.0.2.2:5003/primerapi
 - Chrome. via url http://localhost:5003/primerapi
 
+## Url proyecto de node.js
+- https://github.com/rociowos/App-Node.git
+
 ## Integrantes
 - Cordoba Daniel
 - Woscoff Rocio
