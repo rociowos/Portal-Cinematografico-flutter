@@ -10,7 +10,7 @@ El proyecto consta de 4 pantallas:
 - **Visualización individual de un registro:** Pantalla que muestra los detalles de una película específica.
 - **Visualización de la descripción de la película elegida, filtrada por género:** Pantalla que muestra la descripción de una película seleccionada, filtrada por género.
 
-##Ambiente de desarrollo:
+## Ambiente de desarrollo:
 Se utilizo: 
 - Pixel 6 pro api 28 (android -x86-emulator) via url http://10.0.2.2:5003/primerapi
 - Chrome. via url http://localhost:5003/primerapi
